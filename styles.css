@@ -1,0 +1,192 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.name_header{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+}
+#profile p {
+    text-align: center;
+    font-size: 2em;
+}
+
+#profile div div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+/* Center the profile image container */
+#profile div div {
+    text-align: center;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    #profile div div img {
+        width: 80%;
+        height: auto;
+        max-width: 200px;
+    }
+}
+#profile pre {
+    text-align: center;
+    font: 1em sans-serif;
+} 
+
+.name_title{
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+}
+
+.name_title a{
+    text-decoration: underline solid;
+    color: rgb(114, 114, 114);
+    margin:20px;
+}
+
+.name_title a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.name_title a:after{
+    text-decoration: none;
+}
+
+#profile p span{
+    font-size: 35px;
+    color: rgb(38, 0, 255);
+}
+
+#profile p .name{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.name_title{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(200, 200, 200);
+}
+
+#profile .about_me{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(200, 200, 200);
+    padding: -20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+#profile .about_me .explanation{
+    padding-top: 0px;
+    font-size: 20px;
+    text-align:center;
+}
+
+#profile .about_me .about_me_title{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+}
+
+#skills h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+}
+
+#skills .skills_list{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+#skills .skills_list li{
+    
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(200, 200, 200);
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+}
+
+#projects h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+}
+
+#projects img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+    border: 2px solid rgb(200, 200, 200);
+}
+
+#projects div{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(200, 200, 200);
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#projects div h2{
+    font-size: 1.8em;
+    font-family: 'Kanit', sans-serif;
+}
+
+#projects div p{
+    font-size: 1.2em;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+}
+
+#projects div a{
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    display: block;
+    margin-top: 10px;
+    color: rgb(114, 114, 114)
+}
+
+#projects div a:hover{
+    color: rgb(0, 0, 0);
+}
+#contact div h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+    border: 2px solid rgb(200, 200, 200);
+    margin-top: 20px;
+}
+
+#contact div a{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif;
+    display: block;
+    margin-top: 10px;
+    color: rgb(114, 114, 114)
+}
+
+#contact div a:hover{
+    color: rgb(0, 0, 0);
+}
